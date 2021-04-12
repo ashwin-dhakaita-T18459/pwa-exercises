@@ -1,0 +1,5 @@
+{
+	"name":"Saturn",
+	"details" : ["The sixth planet from the sun, Saturn is known most for its rings. When polymath Galileo Galilei first studied Saturn in the early 1600s, he thought it was an object with three parts: a planet and two large moons on either side. Not knowing he was seeing a planet with rings, the stumped astronomer entered a small drawing — a symbol with one large circle and two smaller ones — in his notebook, as a noun in a sentence describing his discovery. More than 40 years later, Christiaan Huygens proposed that they were rings. The rings are made of ice and rock and scientists are not yet sure how they formed. The gaseous planet is mostly hydrogen and helium and has numerous moons."],
+	"bullets" : ["Discovery: Known to the ancient Greeks and visible to the naked eye", "Named for Roman god of agriculture", "Diameter: 74,900 miles (120,500 km)", "Orbit: 29.5 Earth years", "Day: About 10.5 Earth hours"]
+}
