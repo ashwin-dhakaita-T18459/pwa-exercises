@@ -9,7 +9,22 @@ async function getapi(url) {
     console.log(window.name)
 
     var title = document.querySelector("title")
-    title.textContent = " " + window.name + " ";
+    title.innerHTML = " " + window.name + " ";
+
+    var h1 = document.querySelector("h1")
+    h1.innerHTML = " " + window.name + " ";
+
+    var img = document.querySelector("img")
+    img.src = "../" + window.name + ".jpg"
+
+    if (window.name == "Earth") {
+        img.src = "../earth2.jpg";  
+    }
+
+    if (window.name == "Venus") {
+        img.src = "../venus.png";
+    }
+
 
     var idx = 0;
     var selectors = document.querySelectorAll(".right-floating-p")
@@ -31,7 +46,7 @@ async function getapi(url) {
 
 document.addEventListener("DOMContentLoaded", function (event) {
 
-	var title = document.querySelector("title").textContent
+	var title = window.name
 
     console.log(title)
 
