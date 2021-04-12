@@ -1,0 +1,53 @@
+
+* {
+
+	box-sizing: border-box;
+}
+
+
+body {
+
+	background-color: black;
+	font-family: Metropolis,Helvetica,Arial,sans-serif;
+	color: white;
+}
+
+h1 {
+
+	color: white;
+	font-style: italic;
+	text-align: center;
+}
+
+.floating-img {
+
+	float: left;
+}
+
+.floating-p {
+
+	width: 50%;
+	margin-left: 25%;
+	clear: left;
+	position: relative;
+}
+
+.no-style-anchor {
+
+	color: white;
+	font-family: Metropolis,Helvetica,Arial,sans-serif;
+	text-decoration: none;
+}
+
+.right-floating-div {
+
+	clear: left;
+	position: relative;
+}
+
+.right-floating-p {
+
+	float: left;
+	margin-left: 15%; 
+	width: 50%;
+}
