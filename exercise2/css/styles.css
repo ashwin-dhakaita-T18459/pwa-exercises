@@ -85,9 +85,13 @@ h1 {
 		margin-left: 7%;
 	}
 
+	.floating-img {
+		width: 100%;
+		margin-left: 40%;
+	}
+
 	.right-floating-p {
 		float: none;
-		width: 70%;
 	}
 
 	.img-xs-hidden {
@@ -97,6 +101,11 @@ h1 {
 
 	.title-xs-align {
 
+		clear: both;
+		border: 0px;
+		margin: 0px;
+		padding: 0px;
 		text-align: center;
+		width: 175%;
 	}
 }
