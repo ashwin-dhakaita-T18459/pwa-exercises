@@ -1,0 +1,142 @@
+* {
+
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+
+    background-color: #EFEFF0;
+}
+
+#timeoff-apply-section {
+
+    float: left; 
+    width: 100%;
+    padding-top: 100px;
+}
+
+#remaining-days-label {
+
+    float: left;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.right-align {
+    
+    float: right;
+    padding-right: 20px;
+}
+
+#more-info {
+
+    padding-top: 10px;
+    padding-right: 5px;
+    float: left;
+}
+
+#timeoff-apply-btn {
+
+    background-color: #3BC0F7;
+    height: 125px;
+    width: 125px;
+    margin: 0 auto;
+    border-radius: 100%;
+    text-align: center;
+}
+
+#timeoff-request-text {
+ 
+    text-align: center;
+    padding-top: 10px;
+}
+
+#timeoff-history {
+
+    clear: left;
+    padding-top: 20px; 
+    padding-left: 20px;
+}
+
+#timeoff-history-logo {
+
+    background-image: "../images/timeoff-history@2x.png";
+}
+
+#timeoff-upcoming-container {
+
+    float: left; 
+    clear: left; 
+    padding-top: 20px; 
+    width: 100%;
+}
+
+#timeoff-upcoming {
+
+    height: 190px;
+
+    border-radius: 8px;
+
+    padding-top: 10px;
+    margin: 10px;
+
+    background-color: white;
+}
+
+#timeoff-upcoming-image {
+
+    padding-top: 20px;
+    padding-left: 20px; 
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+
+#upcoming-holiday-date {
+
+    font-size: 12px;
+}
+
+.right-gray-arrow {
+
+    background-image: "../images/right-arrow-grey.png";
+}
+
+.leave-request-box {
+
+    background-color: white; 
+    padding: 10px; 
+    border-radius: 8px; 
+    margin: 10px 10px 10px -10px; 
+    height: 100px;
+}
+
+.leave-request-status {
+
+    float: left;
+
+    border-width: 1px; 
+    border-color: #ACACAC; 
+    border-radius: 4px; 
+    border-style: solid; 
+    
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 10px;
+
+    height: 23px; 
+
+    float: left;
+    clear: left;
+}
+
+.leave-request-circle {
+
+    height: 12px; 
+    width: 12px; 
+    border-radius: 100%; 
+    background-color: red; 
+    float: left; 
+    margin-top: 3px;
+}
